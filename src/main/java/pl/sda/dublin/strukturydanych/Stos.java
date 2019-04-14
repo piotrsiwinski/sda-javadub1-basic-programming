@@ -20,5 +20,12 @@ public class Stos<E> {
     }
   }
 
+  // zaimplementuj metode zdejomowania elementu ze stosu
+  // przetestuj dzialanie
+
+  public E pop(){
+    return null;
+  }
+
 
 }

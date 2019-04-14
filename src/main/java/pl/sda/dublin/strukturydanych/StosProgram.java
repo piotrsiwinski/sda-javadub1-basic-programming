@@ -1,7 +1,33 @@
 package pl.sda.dublin.strukturydanych;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class StosProgram {
   public static void main(String[] args) {
+
+
+      List<String> lst = new ArrayList<>();
+
+      lst.add(0, "asd");
+
+      LinkedList<String> imiona = new LinkedList<>();
+      imiona.addFirst("sdaad");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int[]arr = new int[5];
 
@@ -19,7 +45,6 @@ int[]arr = new int[5];
 //      String element = stos.pop();
 //      System.out.println(element);
 //    }
-
 
       Stos<Integer> stosLiczb = new Stos<>(10);
 

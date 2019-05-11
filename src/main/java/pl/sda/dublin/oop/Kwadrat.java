@@ -19,4 +19,12 @@ public class Kwadrat extends Figura {
   public double obliczObwod() {
     return 4 * a;
   }
+
+  @Override
+  public double podajIloscLiterWNazwie() {
+    double v = super.podajIloscLiterWNazwie();
+    System.out.println("wynik to:" +v);
+    return v;
+  }
+
 }
